@@ -26,19 +26,6 @@
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
-    <!-- jquery HEADER -->
-    <script>
-        $(function(){
-            $('#header').load('header.html')
-        });
-    </script>
-
-    <!-- jquery FOOTER -->
-    <script>
-        $(function(){
-            $('#footer').load('footer.html')
-        });
-    </script>
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -52,10 +39,11 @@
 </script>
 
 
-<body style="background-color: #DA291C;">
+<!-- HEADER -->
+<header id="header"></header>
 
-    <div id="header"></div> 
-   
+<body style="background-color: #DA291C;">
+    
     <video autoplay controls muted class="our_experience_video" play-inline>
         <source src="img/video_our_team.MP4" type="video/mp4">
     </video>
