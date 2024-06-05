@@ -6,7 +6,6 @@
     <title>Dynamique #9624</title>
     <link rel="stylesheet" href="style.css">
 
-
     <!-- favicon (browser tab)-->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
 
@@ -20,12 +19,27 @@
 
     <!-- Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+    <!-- jquery HEADER -->
+    <script>
+        $(function(){
+            $('#header').load('header.html')
+        });
+    </script>
+
+    <!-- jquery FOOTER -->
+    <script>
+        $(function(){
+            $('#header').load('header.html')
+        });
+    </script>
 </head>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BH6B9CMS7M"></script>
-
-
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -34,11 +48,9 @@
     gtag('config', 'G-BH6B9CMS7M');
 </script>
 
-<header class="header">     
-    <div id="header"></div>
-</header>
 
 <body>
+    <header id="header"></header>
 
     <!-- BG image -->
     <div class="c-item-BG">
